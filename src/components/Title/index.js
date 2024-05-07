@@ -6,7 +6,7 @@ export default function Title()
 {
     return(
         <View style={styles.boxTitle}>
-            <Text style={styles.textTitle}>OneBitHealth</Text>
+            <Text style={styles.textTitle}>Calculadora IMC</Text>
         </View>
     );
 }
