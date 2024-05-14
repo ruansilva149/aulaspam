@@ -5,8 +5,8 @@ import styles from "./style";
 
 export default function Form()
 {
-    const [height, setHeight] = useState(null);
-    const [weight, setWeight] = useState(null);
+    const [height, setHeight] = useState('');
+    const [weight, setWeight] = useState('');
     const [messageImc, setMessageImc] = useState("Preencha o peso e a altura");
     const [imc, setImc] = useState(null);
     const [textButton, setTextButton] = useState("Calcular");
@@ -20,8 +20,8 @@ export default function Form()
     {
         if (weight != null && height != null) {
             imcCalculator()
-            setHeight(null)
-            setWeight(null)
+            setHeight('')
+            setWeight('')
             setMessageImc("Seu IMC é igual: ")
             setTextButton("Calcular novamente")
             return
