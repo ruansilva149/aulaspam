@@ -44,6 +44,25 @@ const styles = StyleSheet.create({
     formButtonText: {
         fontSize:20,
         color: "#fff",
+    },
+    
+    showImc: {
+        width:"100%",
+        height:"50%",
+    },
+    imcList: {
+        marginTop:20
+    },
+    imcListItem: {
+        fontSize:20,
+        color:"red",
+        height:50,
+        width:"100%",
+        paddingRight:20
+    },
+    imcListItemText: {
+        fontSize:16,
+        color:"red"
     }
 })
 
