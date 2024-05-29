@@ -8,6 +8,10 @@ const HomeScreen = ({navigation}) => {
                 title='Details'
                 onPress={() => navigation.navigate('Detalhes')}
             />
+            <Button 
+                title='Login'
+                onPress={() => navigation.navigate('Login')}
+            />
         </View>
     );
 }
